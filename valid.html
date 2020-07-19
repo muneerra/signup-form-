@@ -1,0 +1,49 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="valid.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="container">
+        <form action="">
+            <!-- logo image -->
+            <div class="logo">
+                <img src="google-logo.png" alt="google logo">
+                <!-- signin -->
+                <h3 class="welcome">Welcome</h3>
+            </div>
+            <!-- wrap -->
+            <div id="wrapper">
+                <!-- user input -->
+                <div class="user-input">
+                    <input type="text" id="input_password" class="input-field" placeholder="Enter your password">
+                    <label id="error_label"></label>
+                    <div class="required">
+                        <p>Forgot password?</p>
+                        <input value="Next" id="nextButton" type="button" onclick="
+                            var password = document.getElementById('input_password').value
+                            document.getElementById('error_label').innerHTML = password.length > 0 ? '' : 'Please enter password'
+                        " />
+                    </div>
+                </div>
+        </form>
+    </main>
+    <!-- <div class="faqs">
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </div> -->
+    <script></script>
+</body>
+
+</html>

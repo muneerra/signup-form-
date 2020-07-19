@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+}
+#container {
+    border: 1px solid #DADCE0;
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 2em;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.logo img {
+    width: 80px;
+}
+.signIn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.acc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.user-input {
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.input-field {
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #708396;
+    border: 0.5px solid #DADCE0;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.required p {
+    font-weight: 500;
+    color: #277BE9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    /* margin-bottom: 10px; */
+}
+.valid {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.valid p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.valid a {
+    text-decoration: none;
+    color: #277BE9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+/* .cr3ate {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+} */
+.cr3ate a {
+    text-decoration: none;
+    color: #277BE9;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cr3ate button {
+    background-color: #277BE9;
+    color: white;
+    font-size: 15px;
+    padding: 0.5em 1.5em ;
+    border: none;
+    border-radius: 5px;
+    margin-left: 65%;
+}
+#nextButton {
+    background-color: #277BE9;
+    color: white;
+    font-size: 15px;
+    padding: 0.5em 1.5em ;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 65%; */
+}
+/* .faqs ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #3B3C3E;
+} */

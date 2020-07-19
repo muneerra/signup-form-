@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #ffffff;;
+}
+#container {
+    border: 1px solid #DADCE0;
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 80px;
+}
+.logo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.input-field {
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #708396;
+    border: 0.5px solid #DADCE0;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.required {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.required p {
+    font-weight: 500;
+    color: #277BE9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.required button {
+    background-color: #277BE9;
+    color: white;
+    font-size: 15px;
+    padding: 0.5em 1.5em ;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 65%; */
+}
+
+#nextButton {
+    background-color: #277BE9;
+    color: white;
+    font-size: 15px;
+    padding: 0.5em 1.5em ;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 65%; */
+}
